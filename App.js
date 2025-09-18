@@ -68,8 +68,8 @@ function ListItem({ place, definition, img }) {
   );
 }
 
-const deviceWith = Dimensions.get("window").width;
-const isSmallDevice = deviceWith < 380;
+const deviceWidth = Dimensions.get("window").width;
+const isSmallDevice = deviceWidth < 380;
 
 const styles = StyleSheet.create({
   appContainer: {
